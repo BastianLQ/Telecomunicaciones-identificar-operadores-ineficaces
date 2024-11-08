@@ -60,7 +60,11 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
   - __Preparativos__: Realizar las divisiones correspondientes, escalar y trazar un dendrograma en los datos para saber la cantidad de clústers con las que se trabajará.
   - __Ejecutar el modelo__: Se llamará a `KMeans` para que genere la cantidad de clústers correspondiente.
   - __Análisis__: Con los clústers creados se analizarán las características de los con mayor y menor rendimiento, también, se trazarán gráficos de correlación para explorar las relaciones entre las variables.
-- Conclusiones.
+- __Conclusiones__: En esta etapa se rescatan las conclusiones más importantes de todo el proyecto.
+  - __Resumen de los hallazgos clave:__ Se incluyen los descubrimientos más importantes.
+  - __Impacto de las elecciones de procesamiento de datos:__ Reflexión sobre cómo las decisiones decisiones tomadas influyeron en los resultados.
+  - __Relevancia de los hallazgos y sugerencias:__ La importancia de los resultados para la empresa.
+  - __Reflexiones finales:__ Pensamientos finales sobre el proyecto.
 
 ## Relevancia de los descubrimientos
 El análisis de datos de Instacart reveló patrones importantes en el comportamiento de compra de los clientes. Estos insights pueden ser utilizados para optimizar las estrategias de marketing, gestión de inventarios y mejorar la experiencia del cliente.
