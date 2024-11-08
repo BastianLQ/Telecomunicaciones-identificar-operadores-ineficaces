@@ -31,12 +31,12 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
 
 - __Identificar operadores ineficaces__: Mediante un análisis de la cantidad de llamadas perdidas, tiempo de espera y cantidad de llamadas salientes, se categorizará a los operadores como; excelentes, buenos, regulares, malos y muy malos. El sistema estará basado en percentiles, para lo cual se calcularán los percentiles 10, 20, 30, 40, 50, 60, 70, 80, 90 y 100 de los campos a evaluar. Lo anterior será traducido en notas que al promediarse/ponderarse nos entregarán una calificación final sobre los operadores.
 
-Antes de comenzar con los cálculos, se dividirán los operadores en dos grupos:
+  Antes de comenzar con los cálculos, se dividirán los operadores en dos grupos:
 
   - Quienes hacen y reciben llamadas.
   - Quienes solo reciben llamadas
 
-Esto debido a que se usarán indices diferentes para cada uno de estos grupos. Una vez hecha la divsión, se comienza a crear el sistema de clasificación calculando:
+  Esto debido a que se usarán indices diferentes para cada uno de estos grupos. Una vez hecha la divsión, se comienza a crear el sistema de clasificación calculando:
 
   - __Tasa de contestación de llamadas:__ Aplicar los filtros de outliers y de tipo de llamadas, agrupar por operador y sacar los 10 percentiles requeridos para el índice.
   - __Tiempo medio de espera:__ Aplicar los filtros de outliers y de tipo de llamadas, agrupar por operador y sacar los 10 percentiles requeridos para el índice. Este valor deberá ser invertido, ya que a diferencia de los otros, mientras más grande es el valor, es menor la calificación que debe entregar.
