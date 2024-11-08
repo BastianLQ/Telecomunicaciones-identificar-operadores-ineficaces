@@ -56,7 +56,10 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
   - __La tasa de contestación de llamadas de operadores "regulares" es más alta que la de operadores "malos"__.
   - __La media de los tiempos de espera de operadores "malos" es mayor que que la de operadores "regulares"__.
   - __La media de llamadas salientes semanales de operadores "regulares" es mayor que la de operadores "malos"__.
-- Clustering.
+- __Clustering__: En esta fase, usará el modelo de aprendizaje no supervisado `KMeans` para establecer grupos clave entre los operadores que hacen y reciben llamadas, para lo cual se deberán seguir los siguientes pasos.
+  - __Preparativos__: Realizar las divisiones correspondientes, escalar y trazar un dendrograma en los datos para saber la cantidad de clústers con las que se trabajará.
+  - __Ejecutar el modelo__: Se llamará a `KMeans` para que genere la cantidad de clústers correspondiente.
+  - __Análisis__: Con los clústers creados se analizarán las características de los con mayor y menor rendimiento, también, se trazarán gráficos de correlación para explorar las relaciones entre las variables.
 - Conclusiones.
 
 ## Relevancia de los descubrimientos
