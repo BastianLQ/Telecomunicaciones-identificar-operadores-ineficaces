@@ -15,7 +15,10 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
 
 ## Proceso del Proyecto
 - Descomposición de tareas.
-- Pre-procesamiento de datos.
+- __Pre-procesamiento de datos__: En esta etapa inicial se procurará realizar todos los preparativos necesarios para comenzar el análisis.
+  - __Importar librerías y datos__.
+  - __Trabajar los valores ausentes, duplicados y tipos de datos erróneos__.
+  - __Completar los datos__: Crear una columnna con los tiempos de espera de las llamadas.
 - Análisis exploratorio de datos.
 - Identificar operadores ineficaces.
 - Pruebas de hipótesis.
