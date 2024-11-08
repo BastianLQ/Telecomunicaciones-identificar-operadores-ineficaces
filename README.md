@@ -29,7 +29,29 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
   - __Tiempos de espera promedio:__ Construir un histograma con la distribución total de los tiempos de espera las llamadas, se dejarán fuera de este gráfico los tiempos de espera de llamadas salientes y, también, las llamadas internas.
   - __Llamadas salientes semanales:__ Este campo se trabajará de manera semanal ya que es fácilmente actualizable y permite la incorporación de nuevos operadores al sistema sin desconfigurarlo, para este item no se contarán las llamadas internas y las llamadas salientes perdidas. Para visualizar este campo se usará un histograma.
 
-- Identificar operadores ineficaces.
+- __Identificar operadores ineficaces__: Mediante un análisis de la cantidad de llamadas perdidas, tiempo de espera y cantidad de llamadas salientes, se categorizará a los operadores como; excelentes, buenos, regulares, malos y muy malos. El sistema estará basado en percentiles, para lo cual se calcularán los percentiles 10, 20, 30, 40, 50, 60, 70, 80, 90 y 100 de los campos a evaluar. Lo anterior será traducido en notas que al promediarse/ponderarse nos entregarán una calificación final sobre los operadores.
+
+Antes de comenzar con los cálculos, se dividirán los operadores en dos grupos:
+
+  - Quienes hacen y reciben llamadas.
+  - Quienes solo reciben llamadas
+
+Esto debido a que se usarán indices diferentes para cada uno de estos grupos. Una vez hecha la divsión, se comienza a crear el sistema de clasificación calculando:
+
+  - __Tasa de contestación de llamadas:__ Aplicar los filtros de outliers y de tipo de llamadas, agrupar por operador y sacar los 10 percentiles requeridos para el índice.
+  - __Tiempo medio de espera:__ Aplicar los filtros de outliers y de tipo de llamadas, agrupar por operador y sacar los 10 percentiles requeridos para el índice. Este valor deberá ser invertido, ya que a diferencia de los otros, mientras más grande es el valor, es menor la calificación que debe entregar.
+  - __Llamadas salientes semanales__: Aplicar los filtros de outliers y de tipo de llamadas, agrupar por operador y por semana, y sacar los 10 percentiles requeridos para el índice.
+  - __Desarrollar funciones de clasificación:__ Usando los percentiles obtenidos en conjunto con funciones se ingresarán las calificaciones de 1 a 10 al dataset agrupado por operador.
+  - __Ponderación:__ Para el grupo de operadores que solo reciben llamadas, se calculará la media entre las dos medidas usadas: Tiempo medio de espera y Tasa de contestación de llamadas, en cambio, para el grupo que hace y recibe llamadas, se construirá un índice ponderado de la siguiente manera:
+      - __Tasa de contestación de llamadas__: 40% de la calificación final.
+      - __Tiempo medio de espera__: 40% de la calificación final.
+      - __Llamadas salientes semanales__: 20% de la calificación final.
+  - __Categorización:__ Finalmente, se categorizarán las calificaciones finales de la siguiente manera:
+      - __Excelente__: Más de 8.
+      - __Bueno__: Entre 6 y 8.
+      - __Regular__: Entre 4 y 6.
+      - __Malo__: Entre 2 y 4.
+      - __Muy Malo__: Menos de 2.
 - Pruebas de hipótesis.
 - Clustering.
 - Conclusiones.
