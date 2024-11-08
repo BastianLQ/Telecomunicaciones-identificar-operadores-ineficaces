@@ -19,8 +19,7 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
   - __Importar librerías y datos__.
   - __Trabajar los valores ausentes, duplicados y tipos de datos erróneos__.
   - __Completar los datos__: Crear una columnna con los tiempos de espera de las llamadas.
-- Análisis exploratorio de datos: En esta etapa se trabajará en la integridad de los datos y se observarán las distribuciones de los datos, rescatando conclusiones valiosas que se puedan apreciar a simple vista.
-
+- __Análisis exploratorio de datos__: En esta etapa se trabajará en la integridad de los datos y se observarán las distribuciones de los datos, rescatando conclusiones valiosas que se puedan apreciar a simple vista.
   - __Analizar la integridad de los datos:__ esto requiere trabajar en.
       - __Determinar las fechas mínimas y máximas de recolección de datos__.
       - __Determinar si hay datos suficientes por día__.
@@ -30,10 +29,10 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
   - __Tiempos de espera promedio:__ Construir un histograma con la distribución total de los tiempos de espera las llamadas, se dejarán fuera de este gráfico los tiempos de espera de llamadas salientes y, también, las llamadas internas.
   - __Llamadas salientes semanales:__ Este campo se trabajará de manera semanal ya que es fácilmente actualizable y permite la incorporación de nuevos operadores al sistema sin desconfigurarlo, para este item no se contarán las llamadas internas y las llamadas salientes perdidas. Para visualizar este campo se usará un histograma.
 
-  - Identificar operadores ineficaces.
-  - Pruebas de hipótesis.
-  - Clustering.
-  - Conclusiones.
+- Identificar operadores ineficaces.
+- Pruebas de hipótesis.
+- Clustering.
+- Conclusiones.
 
 ## Relevancia de los descubrimientos
 El análisis de datos de Instacart reveló patrones importantes en el comportamiento de compra de los clientes. Estos insights pueden ser utilizados para optimizar las estrategias de marketing, gestión de inventarios y mejorar la experiencia del cliente.
