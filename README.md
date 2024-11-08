@@ -24,7 +24,7 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
   - __Quienes hacen y reciben llamadas__.
   - __Quienes solo reciben llamadas__.
 
-Esto debido a que se usarán indices diferentes para cada uno de estos grupos. Una vez hecha la divsión, se comienza a el análisis exploratorio, comenzando por:
+  Esto debido a que se usarán indices diferentes para cada uno de estos grupos. Una vez hecha la divsión, se comienza a el análisis exploratorio, comenzando por:
   - __Analizar la integridad de los datos:__ esto requiere trabajar en.
       - __Determinar las fechas mínimas y máximas de recolección de datos__.
       - __Determinar si hay datos suficientes por día__.
