@@ -1,5 +1,5 @@
 # Telecomunicaciones-identificar-operadores-ineficaces
-__Proyecto de análisis a la plataforma de delivery Instacart, análisis exploratiorio y visualización de datos__
+__Creación de un sistema de clasificación de operadores telefónicos, clustering y pruebas de hipótesis__
 
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/N14E.jpg" alt="Collage de gráficos">
 
