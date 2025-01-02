@@ -52,7 +52,7 @@ La identificación será realizada para cada uno de los grupos determinados ante
       - __Regular__: Entre 4 y 6.
       - __Malo__: Entre 2 y 4.
       - __Muy Malo__: Menos de 2.
-- Pruebas de hipótesis: En esta etapa se comprueba estadísticamente la diferencia entre el rendimiento de operadores del grupo "Regular" y del grupo "Malo" del grupo de operadores que hace y recibe llamadas. Las hipótesis a probar son las siguientes:
+- __Pruebas de hipótesis:__ En esta etapa se comprueba estadísticamente la diferencia entre el rendimiento de operadores del grupo "Regular" y del grupo "Malo" del grupo de operadores que hace y recibe llamadas. Las hipótesis a probar son las siguientes:
   - __La tasa de contestación de llamadas de operadores "regulares" es más alta que la de operadores "malos"__.
   - __La media de los tiempos de espera de operadores "malos" es mayor que que la de operadores "regulares"__.
   - __La media de llamadas salientes semanales de operadores "regulares" es mayor que la de operadores "malos"__.
