@@ -1,7 +1,7 @@
 # Telecomunicaciones-identificar-operadores-ineficaces
 __Creación de un sistema de clasificación de operadores telefónicos, clustering y pruebas de hipótesis__
 
-<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/pexels-yankrukov-8867262.jpg" alt="imagen">
+<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/banner14.png" alt="imagen">
 
 _Para ver desarrollo en código hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)_
 
