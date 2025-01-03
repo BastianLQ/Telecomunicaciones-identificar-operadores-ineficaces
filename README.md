@@ -69,7 +69,8 @@ La identificación será realizada para cada uno de los grupos determinados ante
 ## Descubrimientos importantes
 - Una vez construído el sistema de clasificación, obtuvimos los siguientes resultados.
 
-<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/banner14.png" alt="Collage de gráficos">}
+<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_134_0.png" alt="Collage de gráficos">
+<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_134_0.png" alt="Collage de gráficos">
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
