@@ -90,5 +90,13 @@ Se incluirán también los puntajes asignados a cada campo y los puntajes finale
 | 3 |	0.8736% |	350.298490 |	2.745527 |	3.285714 |	0.000000 |	5.952381 |	__2.504762__ |
 | 4 |	0.8909% |	139.860891 |	3.890963 |	2.380000 |	1.220000 |	8.160000 |	__3.072000__ |
 
+Podemos rescatar insights muy valiosos de esta tabla, tales como:
+- Los operadores del cluster con mejor puntaje hacen pocas llamadas, pero tienen tiempos de espera y tasas de contestación excelentes.
+- Los operadores del cluster con peor puntaje hacen una buena cantidad de llamadas, pero tienen bajo desempeño en tasa de contestación y tiempos de espera.
+- De lo anterior se puede extraer como conclusión, que __lo más importante para ser un buen operador es establecer el siguiente orden de prioridades:__
+    - __Primero:__ Tasa de contestación.
+    - __Segundo:__ Tiempos de espera.
+    - __Tercero:__ Llamadas realizadas.
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
