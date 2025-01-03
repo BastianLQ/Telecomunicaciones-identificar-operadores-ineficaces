@@ -77,5 +77,9 @@ La identificación será realizada para cada uno de los grupos determinados ante
 ### Clustering
 Se realiza un análisis de clústers en el grupo de los operadores que hacen y reciben llamadas, trazando un dendrograma se llegó a la conclusión de que la cantidad ideal de clústers es 5.
 
+| Cluster | Tasa de contestación | Tiempo de espera promedio | Llamadas semanales promedio | Puntaje contestación | Puntaje t. espera | Puntaje llamadas | Nota |
+|---------|----------------------|---------------------------|-----------------------------|----------------------|-------------------|------------------|------|
+| 0 |	0.988711 |	33.684807 |	1.680076 |	8.852535 |	5.741935 |	3.571429 |	6.552074 |
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
