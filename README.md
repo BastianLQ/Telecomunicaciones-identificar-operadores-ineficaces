@@ -75,7 +75,12 @@ La identificación será realizada para cada uno de los grupos determinados ante
 - De los gráficos podemos concluir que __El rendimiento general de los operadores que solo reciben llamadas es mejor que el de los que reciben y hacen llamadas__, estos últimos tienen peor desempeño en tiempos de espera y tasa de contestación, probablemente, esto se deba a la tarea adicional que recae sobre el segundo grupo.
 
 ### Clustering
-Se realiza un análisis de clústers en el grupo de los operadores que hacen y reciben llamadas, trazando un dendrograma se llegó a la conclusión de que la cantidad ideal de clústers es 5.
+Se realiza un análisis de clústers en el grupo de los operadores que hacen y reciben llamadas, los campos a evaluar son los siguientes:
+- Tasa de contestación (%).
+- Tiempo de espera promedio.
+- Media de llamadas semanales.
+  
+Se incluirán también los puntajes asignados a cada campo y los puntajes finales promedio para cada clúster. Trazando un dendrograma se llegó a la conclusión de que la cantidad ideal de clústers es 5.
 
 | Cluster | Tasa de contestación | Tiempo de espera promedio | Llamadas semanales promedio | Puntaje contestación | Puntaje t. espera | Puntaje llamadas | Nota |
 |---------|----------------------|---------------------------|-----------------------------|----------------------|-------------------|------------------|------|
