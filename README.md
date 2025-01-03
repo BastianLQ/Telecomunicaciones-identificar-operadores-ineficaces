@@ -74,5 +74,8 @@ La identificación será realizada para cada uno de los grupos determinados ante
 
 - De los gráficos podemos concluir que __El rendimiento general de los operadores que solo reciben llamadas es mejor que el de los que reciben y hacen llamadas__, estos últimos tienen peor desempeño en tiempos de espera y tasa de contestación, probablemente, esto se deba a la tarea adicional que recae sobre el segundo grupo.
 
+### Clustering
+Se realiza un análisis de clústers en el grupo de los operadores que hacen y reciben llamadas, trazando un dendrograma se llegó a la conclusión de que la cantidad ideal de clústers es 5.
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
