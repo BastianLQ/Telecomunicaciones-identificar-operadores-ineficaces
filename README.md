@@ -79,7 +79,11 @@ Se realiza un análisis de clústers en el grupo de los operadores que hacen y r
 
 | Cluster | Tasa de contestación | Tiempo de espera promedio | Llamadas semanales promedio | Puntaje contestación | Puntaje t. espera | Puntaje llamadas | Nota |
 |---------|----------------------|---------------------------|-----------------------------|----------------------|-------------------|------------------|------|
-| 0 |	0.988711 |	33.684807 |	1.680076 |	8.852535 |	5.741935 |	3.571429 |	6.552074 |
+| 0 |	0.9887% |	33.684807 |	1.680076 |	8.852535 |	5.741935 |	3.571429 |	__6.552074__ |
+| 1 |	0.9821% |	43.727906 |	3.936930 |	7.603550 |	4.568047 |	8.319527 |	__6.532544__ |
+| 2 |	0.7063% |	127.262252 |	2.383788 |	1.000000 |	2.080000 |	5.200000 |	__2.272000__ |
+| 3 |	0.8736% |	350.298490 |	2.745527 |	3.285714 |	0.000000 |	5.952381 |	__2.504762__ |
+| 4 |	0.8909% |	139.860891 |	3.890963 |	2.380000 |	1.220000 |	8.160000 |	__3.072000__ |
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
