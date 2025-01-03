@@ -72,5 +72,7 @@ La identificación será realizada para cada uno de los grupos determinados ante
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_136_0.png" alt="Collage de gráficos">
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_157_0.png" alt="Collage de gráficos">
 
+- De los gráficos podemos concluir que __El rendimiento general de los operadores que solo reciben llamadas es mejor que el de los que reciben y hacen llamadas__, estos últimos tienen peor desempeño en tiempos de espera y tasa de contestación, probablemente, esto se deba a la tarea adicional que recae sobre el segundo grupo.
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
