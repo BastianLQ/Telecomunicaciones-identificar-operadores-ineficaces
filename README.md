@@ -1,9 +1,9 @@
 # Telecomunicaciones-identificar-operadores-ineficaces
 __Creación de un sistema de clasificación de operadores telefónicos, clustering y pruebas de hipótesis__
 
-<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/N14E.jpg" alt="Collage de gráficos">
+<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/pexels-yankrukov-8867262.jpg" alt="imagen">
 
-_Fragmentos del notebook, para ver proyecto completo hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)_
+_Para ver desarrollo en código hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)_
 
 ## Descripción del Proyecto
 El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva función que brindará a los supervisores y las supervisores información sobre los operadores menos eficaces. Se considera que un operador es ineficaz si tiene una gran cantidad de llamadas entrantes perdidas (internas y externas) y un tiempo de espera prolongado para las llamadas entrantes. Además, si se supone que un operador debe realizar llamadas salientes, un número reducido de ellas también será un signo de ineficacia.
@@ -11,7 +11,7 @@ El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva func
 ## Herramientas Utilizadas
 - __Lenguaje de Programación:__ Python.
 - __Entorno de Desarrollo:__ Jupyter Notebook.
-- __Bibliotecas:__ Pandas, Matplotlib.
+- __Bibliotecas:__ Pandas, Matplotlib, Scikit-learn, Seaborn, Numpy, Stats, Datetime, Scipy, Math.
 
 ## Proceso del Proyecto
 - Descomposición de tareas.
@@ -66,8 +66,9 @@ La identificación será realizada para cada uno de los grupos determinados ante
   - __Relevancia de los hallazgos y sugerencias:__ La importancia de los resultados para la empresa.
   - __Reflexiones finales:__ Pensamientos finales sobre el proyecto.
 
-## Relevancia de los descubrimientos
-El análisis de datos de Instacart reveló patrones importantes en el comportamiento de compra de los clientes. Estos insights pueden ser utilizados para optimizar las estrategias de marketing, gestión de inventarios y mejorar la experiencia del cliente.
+## Descubrimientos importantes
+- Una vez construído el sistema de clasificación, obtuvimos los siguientes resultados.
+<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/N14E.jpg" alt="Collage de gráficos">}
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
