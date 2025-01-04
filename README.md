@@ -107,5 +107,23 @@ Se mostrarán algunos gráficos de dispersión que muestran las divisiones de lo
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_195_0.png" alt="Collage de gráficos">
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_197_0.png" alt="Collage de gráficos">
 
+### Recomendaciones
+
+- Los hallazgos encontrados pueden servir para mejorar enormemente el de los operadores, el sistema de calificación está configurado poder ser automatizado y actualizado semana a semana, y en esa misma línea, __se podría enviar correos automatizados semanalmente con recomendaciones personalizadas basadas en puntos débiles para cada uno de los operadores__.
+
+- Para potenciar el rendimiento se podría, también, __premiar a los operadores que entren en la categoría "Excelente" y/o dar un premio al subir de categoría__, los premios pueden ser, por ejemplo: un bono económico, un sorteo entre quienes entren en la categoría, o un día extra de vacaciones.
+
+- Se sugiere __trabajar directamente en el grupo catalogado como "Muy malo"__, en el caso de que las recomendaciones personalizadas no den resultado, habría que considerar la desvinculación.
+
+- __Para mejorar la precisión del sistema se debe eliminar la generación de outliers__, ya que estos pueden afectar negativamente la calificación de un operador. 
+
+- Una propuesta interesante sería __dividir a los operadores en dos grupos diferentes: quienes solo llaman y quienes solo reciben llamadas__. Esto nos permitiría aprovechar que quienes solo reciben llamadas tienen mejores tiempos de espera y tasas de contestación, además, la media de llamadas semanales es 3.5, por lo que si un operador se especializa exclusivamente en esta tarea, podría fácilmente triplicar esta cifra, lo que a la larga podría resultar en conseguir mejores cifras con una menor cantidad de operadores.
+
+### Beneficios esperados
+
+- Considerando la opción de entregar feedback personalizado a los operadores que tengan margen de mejora, __tendríamos a un 75.6% de los operadores recibiendo este beneficio__.
+- En el caso de que se logre resolver exitosamente la situación del grupo "Muy malo", los tiempos de espera de llamada __bajarían 5.6 segundos en promedio__.
+- Y en caso de que se lleve a cabo la reestructuración, los tiempos de espera generales podrían descender __hasta 22.6 segundos__ en promedio, es decir, un 50%.
+
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
