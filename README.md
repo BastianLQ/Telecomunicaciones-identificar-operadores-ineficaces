@@ -67,6 +67,9 @@ La identificación será realizada para cada uno de los grupos determinados ante
   - __Reflexiones finales:__ Pensamientos finales sobre el proyecto.
 
 ## Descubrimientos importantes
+- La división entre los operadores entre quienes llaman y reciben llamadas y quienes solo reciben llamadas, generó las siguientes proporciones.
+<image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_167_0.png" alt="Collage de gráficos">
+
 - Una vez construído el sistema de clasificación, obtuvimos los siguientes resultados.
 
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/output_136_0.png" alt="Collage de gráficos">
