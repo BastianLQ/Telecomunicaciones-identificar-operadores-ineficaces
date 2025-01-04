@@ -97,9 +97,9 @@ Podemos rescatar insights muy valiosos de esta tabla, tales como:
 - Los operadores del cluster con mejor puntaje hacen pocas llamadas, pero tienen tiempos de espera y tasas de contestación excelentes.
 - Los operadores del cluster con peor puntaje hacen una buena cantidad de llamadas, pero tienen bajo desempeño en tasa de contestación y tiempos de espera.
 - De lo anterior se puede extraer como conclusión, que __lo más importante para ser un buen operador es establecer el siguiente orden de prioridades:__
-    - __Primero:__ Tasa de contestación.
-    - __Segundo:__ Tiempos de espera.
-    - __Tercero:__ Llamadas realizadas.
+    - __Primero:__ Tasa de contestación, se puede observar como influye directamente con la nota final.
+    - __Segundo:__ Tiempos de espera, similar a la tasa de contestación, influye directamente en la nota.
+    - __Tercero:__ Llamadas realizadas, los clústers muestran que se se pueden obtener buenas calificaciones incluso descuidando este punto, asi como se puede estar muy abajo en la tabla teniendo un buen númer de llamadas semanales.
 
 ## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
