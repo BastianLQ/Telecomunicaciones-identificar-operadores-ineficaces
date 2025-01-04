@@ -110,13 +110,9 @@ Se mostrarán algunos gráficos de dispersión que muestran las divisiones de lo
 ### Recomendaciones
 
 - Los hallazgos encontrados pueden servir para mejorar enormemente el de los operadores, el sistema de calificación está configurado poder ser automatizado y actualizado semana a semana, y en esa misma línea, __se podría enviar correos automatizados semanalmente con recomendaciones personalizadas basadas en puntos débiles para cada uno de los operadores__.
-
 - Para potenciar el rendimiento se podría, también, __premiar a los operadores que entren en la categoría "Excelente" y/o dar un premio al subir de categoría__, los premios pueden ser, por ejemplo: un bono económico, un sorteo entre quienes entren en la categoría, o un día extra de vacaciones.
-
 - Se sugiere __trabajar directamente en el grupo catalogado como "Muy malo"__, en el caso de que las recomendaciones personalizadas no den resultado, habría que considerar la desvinculación.
-
 - __Para mejorar la precisión del sistema se debe eliminar la generación de outliers__, ya que estos pueden afectar negativamente la calificación de un operador. 
-
 - Una propuesta interesante sería __dividir a los operadores en dos grupos diferentes: quienes solo llaman y quienes solo reciben llamadas__. Esto nos permitiría aprovechar que quienes solo reciben llamadas tienen mejores tiempos de espera y tasas de contestación, además, la media de llamadas semanales es 3.5, por lo que si un operador se especializa exclusivamente en esta tarea, podría fácilmente triplicar esta cifra, lo que a la larga podría resultar en conseguir mejores cifras con una menor cantidad de operadores.
 
 ### Beneficios esperados
