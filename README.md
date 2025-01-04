@@ -3,7 +3,7 @@ __Creación de un sistema de clasificación de operadores telefónicos, clusteri
 
 <image src="https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Images/banner14.png" alt="imagen">
 
-_Para ver desarrollo en código hacer click [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)_
+_Para ver desarrollo en código hacer click [aquí](https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Notebook.ipynb)_
 
 ## Descripción del Proyecto
 El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva función que brindará a los supervisores y las supervisores información sobre los operadores menos eficaces. Se considera que un operador es ineficaz si tiene una gran cantidad de llamadas entrantes perdidas (internas y externas) y un tiempo de espera prolongado para las llamadas entrantes. Además, si se supone que un operador debe realizar llamadas salientes, un número reducido de ellas también será un signo de ineficacia.
@@ -121,5 +121,5 @@ Se mostrarán algunos gráficos de dispersión que muestran las divisiones de lo
 - En el caso de que se logre resolver exitosamente la situación del grupo "Muy malo", los tiempos de espera de llamada __bajarían 5.6 segundos en promedio__.
 - Y en caso de que se lleve a cabo la reestructuración, los tiempos de espera generales podrían descender __hasta 22.6 segundos__ en promedio, es decir, un 50%.
 
-## Ejecuta el proyecto [aquí](https://portfoliodabastianlopez.on.drv.tw/Portafolio/P14.html)
+## Ejecuta el proyecto [aquí](https://github.com/BastianLQ/Telecomunicaciones-identificar-operadores-ineficaces/blob/main/Notebook.ipynb)
 Para ver el diccionario de datos, el desarrollo completo en código, todos los gráficos y las conclusiones, haga click en el enlace de arriba.
